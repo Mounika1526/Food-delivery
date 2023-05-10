@@ -1,0 +1,270 @@
+<html lang="en">
+
+<head>
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        li{
+    float: left;
+    margin: 10px;
+    list-style-type: none;
+}
+#h{
+    margin-left: 550px;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+#middle{
+    display: flex;
+    margin-left: 30px;
+}
+#city{
+    margin-top: 0px;
+}
+#d{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#order{
+    padding: 20px;
+    width: 200px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: orange;
+}
+#address{
+    display:flex;
+    width: 70vw;
+    height: 100px;
+    justify-content: space-between;
+    margin-left: 150px;
+    align-items: center;
+    box-shadow: 5px 5px rgba(224,224,224,0.5);
+}
+.order{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    border-color: orange;
+    padding: 5px;
+    width:80px;
+}
+.a{
+    display: flex;
+    float: left;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
+#menu2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+#black{
+    background-color: black;
+    display: flex;
+}
+#last{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    color: lightslategray;
+}
+.v{
+    color: black;
+}
+
+@media screen and (max-width: 990px) {
+    li{
+        float:none;
+        margin: 5px;
+    }
+    #h{
+        margin-left: 0px;
+    }
+    #middle{
+        flex-direction: column;
+    }
+    #address{
+        flex-direction: column;
+        height:400px;
+    }
+    #menu,#menu2,#last{
+        flex-direction: column;
+        align-items: center;
+    }
+    #black{
+        flex-direction: column;
+        margin-left: 10%;
+        width: 80vw;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><img src="food.png" width="60px" height="60px"></li>
+        <div id="nav">
+            <li id="h" style="color: orange;">
+                <h3>Home</h3>
+            </li>
+            <li>
+                <h3>Menu</h3>
+            </li>
+            <li>
+                <h3>Orders</h3>
+            </li>
+            <li>
+                <h3>Shop</h3>
+            </li>
+            <li>
+                <h3>Contact</h3>
+            </li>
+        </div>
+    </ul>
+    <div id="middle">
+        <div>
+            <h1 style="font-size: 125px;margin-bottom: 0%;">
+                <p id="d">The Fastest
+                    Delivery In</p>
+                <p style="color:orange;margin-bottom: 0%;" id="city"> Your City</p>
+            </h1>
+            <p style="font-size: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo, sed proin amet
+                a vestibulum enim volutpat lacus. Volutpat arcu sit sed tortor etiam volutpat ipsum. </p>
+            <button id="order">Order Now</button>
+        </div>
+        <img src="hero-image 1.png">
+    </div>
+    <div id="address">
+        <p><b>Today 10:00am - 10:00pm</b><br>
+
+            <b style="font-size: 15px;margin-left: 50px;">Working time</b>
+        </p>
+        <p><b>Anantapur,kamala nagar,India</b><br>
+
+            <b style="font-size: 15px;margin-left: 50px;">Our Location</b>
+        </p>
+        <p><b>+0123 456 7891</b><br>
+
+            <b style="font-size: 15px;margin-left: 10px;">Phone Number</b>
+        </p>
+    </div>
+    <center>
+        <h1 style="color: orange;margin-top: 40px;">Menu</h1>
+    </center>
+    <div id="menu">
+
+        <div>
+            <img src="1.png">
+            <h2>Sandwhich</h2>
+            <div class="a">
+                <button class="order">Order</button>
+                <p style="margin-left: 220px;">$15.00</p>
+            </div>
+        </div>
+        <div>
+            <img src="2.png">
+            <h2>Chicken Pot Pie</h2>
+            <div class="a">
+                <button class="order">Order</button>
+                <p style="margin-left: 220px;">$15.00</p>
+            </div>
+        </div>
+        <div>
+            <img src="3.png">
+            <h2>Pizza</h2>
+            <div class="a">
+                <button class="order">Order</button>
+                <p style="margin-left: 220px;">$15.00</p>
+            </div>
+        </div>
+    </div>
+    <div id="menu2">
+        <div>
+            <img src="4.png">
+            <h2>Sandwhich</h2>
+            <div class="a">
+                <button class="order">Order</button>
+                <p style="margin-left: 220px;">$15.00</p>
+            </div>
+        </div>
+        <div>
+            <img src="5.png">
+            <h2>Chicken Pot Pie</h2>
+            <div class="a">
+                <button class="order">Order</button>
+                <p style="margin-left: 220px;">$15.00</p>
+            </div>
+        </div>
+        <div>
+            <img src="6.png">
+            <h2>Pizza</h2>
+            <div class="a">
+                <button class="order">Order</button>
+                <p style="margin-left: 220px;">$15.00</p>
+            </div>
+        </div>
+    </div>
+    <center><button
+            style="margin-top: 50px;margin-bottom:50px;background-color: orange;width: 200px;color: white;height: 50px;border-color: orange;border-radius: 5px;">See
+            All Menu</button></center>
+    <div id="black">
+        <div>
+            <img src="burger_sandwich.png" alt="">
+        </div>
+        <div>
+            <h1 style="color:white;margin-top: 150px;margin-left: 100px;">Subcribe To Our Newsletter </h1>
+            <p style="color:white;margin-left: 100px;font-size: 20px;">Lorem ipsum dolor sit amet, consectetur
+                adipidrscing elit. Purus mauris sem sed urna venenatis vivamus. Egestas in velit nulla viverra turpis id
+                ac. Amet faucibus tempus.</p>
+            <div style="color:white;margin-left: 100px;font-size: 20px;">
+                <input type="text" placeholder="type your email address" size="40px"
+                    style="padding: 10px;border-radius: 10px;">
+                <button
+                    style="background-color: orange;color: white;padding: 10px;border-radius: 10px;border-color: orange;margin-left: 70px;">Subcribe</button>
+            </div>
+        </div>
+    </div>
+    <div id="last">
+        <div>
+            <img src="food.png" alt="">
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>Commodo libero viverra dap.. </p>
+            <i class="fa-brands fa-facebook" style="background-color:rgba(255,191,0,0.5);color: orange;"></i>
+            <i class="fa-brands fa-square-twitter" style="background-color:rgba(255,191,0,0.5);color: orange;"></i>
+            <i class="fa-brands fa-instagram" style="background-color:rgba(255,191,0,0.5);color: orange;"></i>
+            <i class="fa-brands fa-linkedin" style="background-color:rgba(255,191,0,0.5);color: orange;"></i>
+        </div>
+        <p>
+        <div style="margin-top: 30px;margin-left:0px;">
+            <h1 class="v">User Link </h1>
+
+            About us<br>
+            contact Us<br>
+            order delivery<br>
+            Payment & Tax<br>
+            Terms of services<br>
+
+            </p>
+        </div>
+        <div style="margin-top: 50px;">
+            <h1 class="v">
+                Contact Us
+            </h1>
+
+            1234 Country Club Ave<br>
+            NC 515765, Anantapur,India <br>
+            +0123 456 7891<br>
+
+        </div>
+    </div>
+</body>
+
+</html>
